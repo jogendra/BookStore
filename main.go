@@ -19,7 +19,6 @@ type Book struct {
 var books []Book
 
 func main() {
-
 	router := mux.NewRouter()
 
 	books = append(books,
